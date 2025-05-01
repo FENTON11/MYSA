@@ -1,0 +1,25 @@
+@import "tailwindcss";
+* {
+  /* padding: 0; */
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  @apply bg-background  font-sans text-text;
+}
+.bg-app {
+  @apply bg-gradient-to-r from-blue-500 to-[#ff014f] bg-clip-text text-transparent;
+}
+@theme {
+  --font-family: "Poppins", sans-serif;
+  --color-primary: #facc15;
+  --color-background: #f0fdfa;
+  --color-secondary: #facc15;
+  --color-accent: #15803d;
+  --color-text: #f1f5f9;
+  --color-dark: #0f172a;
+}
